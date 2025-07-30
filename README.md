@@ -43,32 +43,20 @@ A **visually stunning** and **professionally animated** Python Telegram script u
 ### **Method 1: Automated Setup (Recommended)**
 ```bash
 # 1. Download/Clone the project
-git clone <repository-url>
-cd NiftyPool
+git clone https://github.com/HarshDhaka69/NiftySender.git
+cd NiftySender
 
 # 2. Run automated setup
 python setup.py
 
 # 3. Launch NiftyPool
-python main.py
-```
-
-### **Method 2: Manual Setup**
-```bash
-# 1. Install dependencies
-pip install telethon>=1.30.3 colorama>=0.4.6 pyfiglet>=0.8.post1 cryptg>=0.4.0
-
-# 2. Create directories
-mkdir data logs sessions backups
-
-# 3. Run NiftyPool
-python main.py
+python NiftySender.py
 ```
 
 ## 🎬 **Getting Started Experience**
 
 ### **1. 🚀 Spectacular Startup**
-When you run `python main.py`, enjoy:
+When you run `python NiftySender.py`, enjoy:
 - Animated NiftyPool logo with typewriter effect
 - Professional loading sequence with progress indicators
 - Beautiful welcome celebration with emoji animations
@@ -120,7 +108,7 @@ Once NiftyForwarder is running, use these commands in **any Telegram chat**:
 
 ```
 NiftyPool/
-├── 🎬 main.py              # Main animated application (47KB, 1128 lines)
+├── 🎬 NiftySender.py              # Main animated application (47KB, 1128 lines)
 ├── ⚙️  setup.py             # Automated setup script
 ├── 📚 README.md             # This comprehensive guide
 ├── 📦 requirements.txt      # Python dependencies
@@ -324,62 +312,11 @@ Check `logs/niftypool_YYYYMMDD.log` for detailed error information:
 - 🌐 **Web Interface** - Optional web-based control panel
 - 📱 **Mobile App** - Companion mobile application
 
-## 🌐 **Web Control Panel**
-
-### **✨ Features**
-- **Real-time Dashboard** with live statistics
-- **Account Overview** with status monitoring
-- **Forwarding Analytics** with hourly charts
-- **Error Tracking** and monitoring
-- **Performance Metrics** including processing times
-- **Beautiful UI** with modern design
-
-### **🚀 Starting the Web Panel**
-```bash
-# Start the web panel (development)
-python web_panel.py
-
-# Start with Gunicorn (production)
-gunicorn web_panel:app -b 0.0.0.0:5000 --workers 4
-```
-
-### **📊 Available Analytics**
-1. **Overview Statistics**
-   - Total active accounts
-   - Active forwarding rules
-   - Today's total forwards
-   - Overall success rate
-
-2. **Hourly Analytics**
-   - Forwarding activity charts
-   - Success vs. total forwards
-   - Performance trends
-
-3. **Account Statistics**
-   - Account status monitoring
-   - Active rules per account
-   - Total forwards per account
-   - Average processing times
-
-4. **Error Analytics**
-   - Real-time error tracking
-   - Error frequency analysis
-   - Last occurrence timestamps
-   - Detailed error messages
-
-### **🔐 Security Notes**
-- Web panel runs on localhost by default
-- Use a reverse proxy (e.g., Nginx) for production
-- Implement authentication before exposing to internet
-- Keep API endpoints private
-
----
-
 ## 🎉 **Ready to Experience the Magic?**
 
 ```bash
 # Quick Start (3 commands only!)
-git clone <repository-url> && cd NiftyPool
+git clone https://github.com/HarshDhaka69/NiftySender.git && cd NiftySender
 python setup.py
 python main.py
 ```
